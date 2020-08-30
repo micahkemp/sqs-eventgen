@@ -3,7 +3,7 @@ import boto3
 
 # TODO move this to a configuration or argument
 sqs_name = "vaultsync_demo"
-message_delay_sec = 15
+message_delay_sec = 5
 
 sqs = boto3.resource('sqs')
 #queue = sqs.Queue(sqs_url)
